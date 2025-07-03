@@ -88,40 +88,40 @@ cp .env.example .env
 # Set VITE_API_URL (e.g., http://localhost:5000/api)
 npm run dev
 ```
-🧪 API Documentation
-🔐 Auth
-## Endpoint	Method	Description
+# 🧪 API Documentation
+## 🔐 Auth
+#### Endpoint	Method	Description
 - /api/auth/register	POST	Register a new user
 - /api/auth/login	POST	Login and receive token
-# 📘 Posts
-## Endpoint	Method	Description
+## 📘 Posts
+#### Endpoint	Method	Description
 - /api/posts	GET	Get all posts 
 - /api/posts/:id	GET	Get a single post
 - /api/posts	POST	Create post (auth required)
 - /api/posts/:id	PUT	Update post (auth + owner)
 - /api/posts/:id	DELETE	Delete post (auth + owner)
-# 📁 Categories
-## Endpoint	Method	Description
+## 📁 Categories
+#### Endpoint	Method	Description
 - /api/categories	GET	Get all categories
 - /api/categories	POST	Create new category
-# 💬 Comments
-## Endpoint	Method	Description
+## 💬 Comments
+#### Endpoint	Method	Description
 - /api/comments/:postId	GET	Get comments for a post
 - /api/comments	POST	Add comment (auth required)
 - /api/comments/:id	DELETE	Delete comment (auth + owner)
 
 - .env file contents
-## PORT=5000
-## MONGODB_URI=mongodb://localhost:27017/mernblog //example url
-## JWT_SECRET=your_jwt_secret
+#### PORT=5000
+#### MONGODB_URI=mongodb://localhost:27017/mernblog //example url
+#### JWT_SECRET=your_jwt_secret
 
 📄 .env.example (Frontend)
 
 VITE_API_URL=http://localhost:5000/api
 
-## 📷 Image Upload
+#### 📷 Image Upload
 
-### By default, uses multer to store images in /uploads
+#### By default, uses multer to store images in /uploads
 
 
 🙌 Contributing
