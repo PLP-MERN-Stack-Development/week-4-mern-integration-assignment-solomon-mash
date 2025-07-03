@@ -110,15 +110,6 @@ npm run dev
 - /api/comments	POST	Add comment (auth required)
 - /api/comments/:id	DELETE	Delete comment (auth + owner)
 
-- .env file contents
-#### PORT=5000
-#### MONGODB_URI=mongodb://localhost:27017/mernblog //example url
-#### JWT_SECRET=your_jwt_secret
-
-📄 .env.example (Frontend)
-
-VITE_API_URL=http://localhost:5000/api
-
 #### 📷 Image Upload
 
 #### By default, uses multer to store images in /uploads
