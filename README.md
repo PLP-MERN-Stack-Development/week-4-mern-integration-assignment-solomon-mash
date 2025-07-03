@@ -115,9 +115,9 @@ npm run dev
 #### By default, uses multer to store images in /uploads
 
 
-🙌 Contributing
+# 🙌 Contributing
 
-- welcome! To contribute:
+- You are welcomed To contribute:
 
 - Fork the repo
 
