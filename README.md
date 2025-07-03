@@ -117,14 +117,14 @@ npm run dev
 
 # 🙌 Contributing
 
-- You are welcomed To contribute:
+## To contribute:
 
-- Fork the repo
+1. Fork the repo
 
-- Create a branch (git checkout -b feature-name)
+2. Create a branch (git checkout -b feature-name)
 
-- Commit your changes
+3. Commit your changes
 
-- Open a pull request
+4. Open a pull request
 
 📄 License
