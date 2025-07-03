@@ -110,7 +110,7 @@ npm run dev
 - /api/comments	POST	Add comment (auth required)
 - /api/comments/:id	DELETE	Delete comment (auth + owner)
 
-#### 📷 Image Upload
+## 📷 Image Upload
 
 #### By default, uses multer to store images in /uploads
 
