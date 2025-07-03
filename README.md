@@ -117,7 +117,7 @@ npm run dev
 
 # 🙌 Contributing
 
-## To contribute:
+### To contribute:
 
 1. Fork the repo
 
@@ -127,4 +127,3 @@ npm run dev
 
 4. Open a pull request
 
-📄 License
