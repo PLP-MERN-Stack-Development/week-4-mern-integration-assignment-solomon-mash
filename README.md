@@ -19,20 +19,6 @@ A full-stack blog application built with MongoDB, Express.js, React, and Node.js
 ## 📁 Project Structure
 ```
 mern-blog/
-├── client/ # React Frontend (Vite)
-│ ├── pages/
-│ ├── components/
-│ ├── context/
-│ └── services/
-├── server/ # Express Backend
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ └── middleware/
-└── uploads/ # Uploaded images (if local)
-```
-```
-mern-blog/
 ├── client/                 # React front-end
 │   ├── public/             # Static files
 │   ├── src/                # React source code
